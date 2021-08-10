@@ -16,6 +16,9 @@
 
   --cyan-500: #00a3ff;
   --blue-400: #224e9f;
+  --blue-700: #1a3b7a;
+
+  --container-width: 1080px;
 }
 
 @media (max-width: 1080px) {
@@ -31,7 +34,7 @@
 }
 
 body {
-  background: var(--gray-50);
+  background: var(--white);
   color: var(--gray-800);
 }
 

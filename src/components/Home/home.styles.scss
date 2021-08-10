@@ -1,0 +1,44 @@
+.home {
+  // background-color: blue;
+  max-width: var(--container-width);
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+
+  .home__info {
+    // background-color: brown;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 50%;
+
+    .home__title {
+      font-size: 2.5rem;
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
+      background-clip: text;
+    }
+
+    .home__paragraph {
+      line-height: 1.5rem;
+      font-size: 1.2rem;
+    }
+
+    .home__button {
+      border: unset;
+      font-weight: 900;
+      text-align: center;
+      color: white;
+      background: linear-gradient(90deg, var(--blue-700), var(--blue-400));
+
+      width: 8rem;
+      height: 2rem;
+      line-height: 2rem;
+      border-radius: 0.5rem;
+    }
+  }
+}

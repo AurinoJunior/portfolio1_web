@@ -9,7 +9,7 @@
     align-items: center;
 
     height: 100%;
-    max-width: 1080px;
+    max-width: var(--container-width);
     margin: 0 auto;
 
     .header__title {
