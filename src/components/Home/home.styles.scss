@@ -1,5 +1,4 @@
 .home {
-  // background-color: blue;
   max-width: var(--container-width);
   margin: 0 auto;
 
@@ -9,7 +8,6 @@
   height: 90vh;
 
   .home__info {
-    // background-color: brown;
     height: 15rem;
     display: flex;
     flex-direction: column;
@@ -32,13 +30,26 @@
       border: unset;
       font-weight: 900;
       text-align: center;
-      color: white;
-      background: linear-gradient(90deg, var(--blue-700), var(--blue-400));
+
+      color: var(--white);
+      background-size: 200% auto;
+      background-image: linear-gradient(
+        90deg,
+        var(--blue-700) 0%,
+        var(--cyan-500) 50%,
+        var(--blue-700) 100%
+      );
 
       width: 8rem;
       height: 2rem;
       line-height: 2rem;
       border-radius: 0.5rem;
+
+      transition: 0.5s;
+
+      &:hover {
+        background-position: right center;
+      }
     }
   }
 }
