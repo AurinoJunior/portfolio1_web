@@ -33,6 +33,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--white);
   color: var(--gray-800);

@@ -1,2 +1,69 @@
 .about {
+  max-width: var(--container-width);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+
+  .about__title {
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
+    background-clip: text;
+
+    margin-bottom: 3rem;
+  }
+
+  .about__paragraph {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+    & + .about__paragraph {
+      margin-top: 1rem;
+    }
+  }
+
+  .about__info__container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    margin-top: 5rem;
+
+    .about__personal_data {
+      h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: var(--blue-400);
+      }
+
+      li {
+        list-style: none;
+        font-size: 1.2rem;
+
+        & + li {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    .about__interests {
+      h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: var(--cyan-500);
+      }
+
+      .about__interests__images {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+      }
+    }
+  }
 }

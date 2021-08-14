@@ -8,7 +8,7 @@ export function Header() {
           <h1 className="header__title">Aurino Geraldo</h1>
 
           <nav className="header__menu">
-            <a className="header__menu__item" href="/">
+            <a className="header__menu__item" href="#about">
               Sobre
             </a>
             <a className="header__menu__item" href="/">

@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 90vh;
+  height: 100vh;
 
   .home__info {
     height: 15rem;
@@ -19,6 +19,7 @@
       -webkit-text-fill-color: transparent;
       background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
       background-clip: text;
+      background-size: 80%;
     }
 
     .home__paragraph {
