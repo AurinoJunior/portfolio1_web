@@ -2,7 +2,7 @@ import "./home.styles.scss";
 
 export function Home() {
   return (
-    <section className="home">
+    <section id="home" className="home">
       <div className="home__info">
         <h2 className="home__title">Eu sou web developer!</h2>
         <p className="home__paragraph">

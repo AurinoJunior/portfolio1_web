@@ -11,13 +11,13 @@ export function Header() {
             <a className="header__menu__item" href="#about">
               Sobre
             </a>
-            <a className="header__menu__item" href="/">
+            <a className="header__menu__item" href="#projects">
               Projeto
             </a>
-            <a className="header__menu__item" href="/">
+            <a className="header__menu__item" href="#carrer">
               Carreira
             </a>
-            <a className="header__menu__item" href="/">
+            <a className="header__menu__item" href="#contact">
               Contato
             </a>
           </nav>

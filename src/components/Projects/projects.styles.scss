@@ -1,0 +1,26 @@
+.projects {
+  max-width: var(--container-width);
+  margin: 8rem auto 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .projects__title {
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
+    background-clip: text;
+  }
+
+  .projects__paragraph {
+    margin-top: 1rem;
+  }
+
+  .projects__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+}
