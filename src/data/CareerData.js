@@ -1,12 +1,17 @@
 const CareerData = {
   catho: {
     description:
-      "Em meu período na Catho trabalhei como desenvolvedor web júnior, era responsável por entregar soluções na área logada do candidato trabalhando diretamente com B2C, também participava de reuniões de planejamento e arquitetura para construir novas features, utilizamos os métodos scrum e kanban para entregar as demandas de maneira ágil.",
+      "Desenvolvedor web júnior, responsável pela área logada do candidato no perido de 2 anos e 10 meses.",
     title: "Catho Online",
     dateStart: 2018,
     dateEnd: 2020,
   },
-  getninjas: {},
+  getninjas: {
+    title: "GetNinjas",
+    description:
+      "Desenvolvedor front-end júnior, atuando no time de growth criando e mantendo paginas web para aquisição de novos clientes.",
+    dateStart: 2020,
+  },
   unip: {
     title: "Universidade Paulista",
     description:
@@ -14,7 +19,12 @@ const CareerData = {
     dateStart: 2016,
     dateEnd: 2019,
   },
-  ensinoMedio: {},
+  ensinoMedio: {
+    title: "Adelaide F de Oliveira",
+    description: "Ensino médio completo, vila Guilhermina, São Paulo - SP",
+    dateStart: 2013,
+    dateEnd: 2015,
+  },
 };
 
 export default CareerData;

@@ -1,7 +1,9 @@
 .career_details {
   display: flex;
-  align-items: center;
-  margin-top: 3rem;
+
+  & + .career_details {
+    margin-top: 4rem;
+  }
 
   .career_details__title {
     strong {

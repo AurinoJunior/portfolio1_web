@@ -4,7 +4,7 @@ import { CareerDetails } from "./CareerDetails/index";
 import CareerData from "../../data/CareerData";
 
 export function Career() {
-  const { catho, unip } = CareerData;
+  const { catho, unip, getninjas, ensinoMedio } = CareerData;
 
   return (
     <section id="career" className="career">
@@ -18,6 +18,11 @@ export function Career() {
             dateStart={catho.dateStart}
             dateEnd={catho.dateEnd}
           />
+          <CareerDetails
+            title={getninjas.title}
+            description={getninjas.description}
+            dateStart={getninjas.dateStart}
+          />
         </div>
         <div className="career__schooling">
           <h3>Estudo</h3>
@@ -26,6 +31,13 @@ export function Career() {
             description={unip.description}
             dateStart={unip.dateStart}
             dateEnd={unip.dateEnd}
+          />
+
+          <CareerDetails
+            title={ensinoMedio.title}
+            description={ensinoMedio.description}
+            dateStart={ensinoMedio.dateStart}
+            dateEnd={ensinoMedio.dateEnd}
           />
         </div>
       </div>

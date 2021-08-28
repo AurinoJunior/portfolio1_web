@@ -6,9 +6,9 @@ export function About() {
       <h2 className="about__title">Sobre</h2>
       <p className="about__paragraph">
         Salve salve galera meu nome é Aurino Junior atualmente sou desenvolvedor
-        de software frontend e trabalho no GetNinjas, me formei em ciência da
-        computação em 2019 e desde então tenho desbravado esse mundo da
-        programação web, metodologias ágeis e cultura devops.
+        web front-end no GetNinjas, me formei em ciência da computação em 2019 e
+        desde então tenho desbravado esse mundo da programação web, metodologias
+        ágeis e cultura devops.
       </p>
       <p className="about__paragraph">
         Bom espero conseguir compartilhar um pouco dos meus estudos com vocês e
