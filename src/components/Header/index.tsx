@@ -5,7 +5,9 @@ export function Header() {
     <>
       <header className="header">
         <div className="header__container">
-          <h1 className="header__title">Aurino Geraldo</h1>
+          <h1 className="header__title">
+            <a href="#home">Aurino Geraldo</a>
+          </h1>
 
           <nav className="header__menu">
             <a className="header__menu__item" href="#about">
