@@ -1,4 +1,4 @@
-import "./Career.styles.scss";
+import "./career.styles.scss";
 
 import { CareerDetails } from "./CareerDetails/index";
 import CareerData from "../../data/CareerData";

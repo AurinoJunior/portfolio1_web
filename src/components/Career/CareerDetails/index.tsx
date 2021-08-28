@@ -1,4 +1,4 @@
-import "./CareerDetails.styles.scss";
+import "./careerDetails.styles.scss";
 
 interface CareerDetailsProps {
   description: string;

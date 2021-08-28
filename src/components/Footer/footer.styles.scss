@@ -1,0 +1,13 @@
+.footer {
+  background: var(--white);
+  height: 2rem;
+  margin-top: 8rem;
+  border-top: 0.5px solid var(--gray-300);
+
+  .footer__container {
+    line-height: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--gray-900);
+  }
+}
