@@ -14,7 +14,7 @@ export function Header() {
             <a className="header__menu__item" href="#projects">
               Projeto
             </a>
-            <a className="header__menu__item" href="#carrer">
+            <a className="header__menu__item" href="#career">
               Carreira
             </a>
             <a className="header__menu__item" href="#contact">

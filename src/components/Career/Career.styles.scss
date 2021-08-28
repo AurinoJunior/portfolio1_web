@@ -1,0 +1,39 @@
+.career {
+  max-width: var(--container-width);
+  margin: 8rem auto 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .career__title {
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
+    background-clip: text;
+
+    margin-bottom: 3rem;
+  }
+
+  .career__container {
+    display: flex;
+
+    .career__professional {
+      h3 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: var(--blue-400);
+      }
+    }
+
+    .career__schooling {
+      margin-left: 5rem;
+
+      h3 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: var(--cyan-500);
+      }
+    }
+  }
+}

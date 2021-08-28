@@ -1,6 +1,6 @@
 import "./projects.styles.scss";
 
-import { Card } from "./card";
+import { Card } from "./Card";
 
 export function Projects() {
   return (

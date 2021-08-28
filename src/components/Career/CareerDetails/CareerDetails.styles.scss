@@ -1,0 +1,20 @@
+.career_details {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+
+  .career_details__title {
+    strong {
+      display: block;
+      font-size: 1.2rem;
+      white-space: nowrap;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .career_details__paragraph {
+    max-width: 720px;
+    text-align: justify;
+    margin-left: 2rem;
+  }
+}
