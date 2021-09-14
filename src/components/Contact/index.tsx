@@ -14,8 +14,8 @@ export function Contact() {
           <span>Discord</span>
         </div>
         <div className="contact__item">
-          <img src="https://via.placeholder.com/80" alt="divnkedin" />
-          <span>divnkedin</span>
+          <img src="https://via.placeholder.com/80" alt="Linkedin" />
+          <span>Linkedin</span>
         </div>
         <div className="contact__item">
           <img src="https://via.placeholder.com/80" alt="Github" />
