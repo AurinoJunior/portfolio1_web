@@ -20,7 +20,7 @@ export function Header() {
               Carreira
             </a>
             <a className="header__menu__item" href="#contact">
-              Contato
+              Contatos
             </a>
           </nav>
         </div>

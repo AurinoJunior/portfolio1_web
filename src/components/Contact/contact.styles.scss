@@ -1,0 +1,31 @@
+.contact {
+  max-width: var(--container-width);
+  margin: 5rem auto 0;
+  padding-top: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .contact__title {
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
+    background-clip: text;
+
+    margin-bottom: 3rem;
+  }
+
+  .contact__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5rem;
+
+    .contact__item {
+      span {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
