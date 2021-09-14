@@ -15,7 +15,7 @@ export function About() {
         aprender bastante durantes esse processo, bora aprender juntos 🚀🚀
       </p>
 
-      <div className="about__info__container">
+      <div className="about__info__content">
         <div className="about__personal_data">
           <h3>Dados pessoais</h3>
           <ul>

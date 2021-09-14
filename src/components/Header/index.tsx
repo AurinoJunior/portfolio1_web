@@ -4,7 +4,7 @@ export function Header() {
   return (
     <>
       <header className="header">
-        <div className="header__container">
+        <div className="header__content">
           <h1 className="header__title">
             <a href="#home">Aurino Geraldo</a>
           </h1>

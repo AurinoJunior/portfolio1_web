@@ -9,7 +9,7 @@ export function Career() {
   return (
     <section id="career" className="career">
       <h2 className="career__title">Carreira</h2>
-      <div className="career__container">
+      <div className="career__content">
         <div className="career__professional">
           <h3>Profissional</h3>
           <CareerDetails
