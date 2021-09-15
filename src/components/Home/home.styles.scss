@@ -29,6 +29,7 @@
     .home__button {
       border: unset;
       font-weight: 900;
+      font-size: 1.2rem;
       text-align: center;
 
       color: var(--white);
@@ -40,9 +41,9 @@
         var(--blue-700) 100%
       );
 
-      width: 8rem;
-      height: 2rem;
-      line-height: 2rem;
+      width: 10rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
       border-radius: 0.5rem;
 
       transition: 0.5s;
