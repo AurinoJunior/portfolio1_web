@@ -1,3 +1,5 @@
+$break-point-mobile: 640px;
+
 @mixin container-spacing {
   max-width: var(--container-width);
   margin: 8rem auto 0;
@@ -15,4 +17,8 @@
   background-clip: text;
 
   margin-bottom: 3rem;
+
+  @media (max-width: $break-point-mobile) {
+    font-size: 2rem;
+  }
 }
