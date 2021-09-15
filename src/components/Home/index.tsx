@@ -1,5 +1,5 @@
 import "./home.styles.scss";
-import 'animate.css'
+import "animate.css";
 
 export function Home() {
   return (

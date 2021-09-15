@@ -3,7 +3,7 @@ $break-point-mobile: 640px;
 @mixin container-spacing {
   max-width: var(--container-width);
   margin: 8rem auto 0;
-  padding-top: 3rem;
+  padding-top: 2rem;
 
   display: flex;
   flex-direction: column;
