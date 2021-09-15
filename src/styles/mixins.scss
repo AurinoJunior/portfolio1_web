@@ -21,10 +21,6 @@ $break-point-mobile: 640px;
   background-clip: text;
 
   margin-bottom: 3rem;
-
-  @media (max-width: $break-point-mobile) {
-    font-size: 2rem;
-  }
 }
 
 @mixin paragraph {

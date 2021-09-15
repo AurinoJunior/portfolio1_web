@@ -28,6 +28,10 @@
     .home__title {
       @include gradient-title;
       margin: 0;
+
+      @media (max-width: $break-point-mobile) {
+        font-size: 2rem;
+      }
     }
 
     .home__paragraph {
