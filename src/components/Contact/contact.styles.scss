@@ -8,16 +8,33 @@
   }
 
   .contact__content {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
 
     .contact__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &:hover{
+        cursor: pointer;
+      }
+
       span {
         display: block;
         margin-top: 0.5rem;
         text-align: center;
       }
+
+      .item-copy {
+        color: var(--cyan-500);
+        font-weight: 900;
+      }
     }
+  }
+
+  .contact__email {
+    margin-top: 5rem;
   }
 }
