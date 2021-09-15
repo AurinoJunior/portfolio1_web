@@ -1,3 +1,5 @@
+@import '../../styles/mixins';
+
 .home {
   max-width: var(--container-width);
   margin: 0 auto;
@@ -15,11 +17,8 @@
     max-width: 50%;
 
     .home__title {
-      font-size: 2.5rem;
-      -webkit-text-fill-color: transparent;
-      background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
-      background-clip: text;
-      background-size: 80%;
+      @include gradient-title;
+      margin: 0;
     }
 
     .home__paragraph {

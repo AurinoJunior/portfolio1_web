@@ -1,19 +1,10 @@
-.career {
-  max-width: var(--container-width);
-  margin: 5rem auto 0;
-  padding-top: 3rem;
+@import '../../styles/mixins';
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.career {
+  @include container-spacing;
 
   .career__title {
-    font-size: 2.5rem;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, var(--blue-400), var(--cyan-500));
-    background-clip: text;
-
-    margin-bottom: 3rem;
+    @include gradient-title;
   }
 
   .career__content {
