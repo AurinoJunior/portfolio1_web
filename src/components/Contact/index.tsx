@@ -22,6 +22,7 @@ export function Contact() {
           <span>Github</span>
         </div>
       </div>
+      <h3 className="contact__email">Email: aurinoaj@gmail.com</h3>
     </section>
   );
 }

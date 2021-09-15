@@ -8,9 +8,9 @@
   }
 
   .contact__content {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
 
     .contact__item {
       span {
@@ -19,5 +19,9 @@
         text-align: center;
       }
     }
+  }
+
+  .contact__email {
+    margin-top: 5rem;
   }
 }
