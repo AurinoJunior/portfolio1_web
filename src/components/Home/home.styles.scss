@@ -1,5 +1,7 @@
 @import '../../styles/mixins';
 
+$break-point-mobile: 640px;
+
 .home {
   max-width: var(--container-width);
   margin: 0 auto;
@@ -9,12 +11,22 @@
   justify-content: space-between;
   height: 100vh;
 
+  @media (max-width: $break-point-mobile) {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+
   .home__info {
     height: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     max-width: 50%;
+
+    @media (max-width: $break-point-mobile) {
+      max-width: 80%;
+    }
 
     .home__title {
       @include gradient-title;
@@ -24,6 +36,10 @@
     .home__paragraph {
       line-height: 1.5rem;
       font-size: 1.2rem;
+
+      @media (max-width: $break-point-mobile) {
+        font-size: 1rem;
+      }
     }
 
     .home__button {
@@ -51,6 +67,20 @@
       &:hover {
         background-position: right center;
       }
+
+      @media (max-width: $break-point-mobile) {
+        width: 8rem;
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .home__img{
+    @media (max-width: $break-point-mobile) {
+      width: 300px;
     }
   }
 }
+
