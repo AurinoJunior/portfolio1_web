@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@import "../../styles/mixins";
 
 .about {
   @include container-spacing;
@@ -10,10 +10,7 @@
   }
 
   .about__paragraph {
-    width: 100%;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    text-align: justify;
+    @include paragraph;
 
     & + .about__paragraph {
       margin-top: 1rem;

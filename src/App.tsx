@@ -5,10 +5,10 @@ import "./styles/global.scss";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
-import { Projects } from "./components/Projects";
-import { Career } from "./components/Career";
+// import { Projects } from "./components/Projects";
+// import { Career } from "./components/Career";
+// import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import { Contact } from "./components/Contact";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Projects />
-      <Career />
-      <Contact />
+      {/* <Projects /> */}
+      {/* <Career /> */}
+      {/* <Contact /> */}
       <Footer />
     </>
   );
