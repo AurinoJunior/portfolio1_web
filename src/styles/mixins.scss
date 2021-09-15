@@ -8,6 +8,10 @@ $break-point-mobile: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: $break-point-mobile) {
+    width: 80%;
+  }
 }
 
 @mixin gradient-title {

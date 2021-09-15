@@ -24,6 +24,10 @@
 
     margin-top: 5rem;
 
+    @media (max-width: $break-point-mobile) {
+      flex-direction: column;
+    }
+
     .about__personal_data {
       h3 {
         text-align: center;
@@ -39,6 +43,10 @@
         & + li {
           margin-top: 0.5rem;
         }
+      }
+
+      @media (max-width: $break-point-mobile) {
+        margin-bottom: 3rem;
       }
     }
 
