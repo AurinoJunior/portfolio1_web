@@ -1,18 +1,28 @@
 @import "../../styles/mixins";
 
-.menu__open,
-.menu__close {
+.menu__icon-open,
+.menu__icon-close {
+  cursor: pointer;
+  z-index: 102;
+
   position: fixed;
   top: 2rem;
   right: 2rem;
 
-  cursor: pointer;
-  z-index: 102;
-}
+  width: 4rem;
+  padding: 0.5rem;
 
-.menu__close-hide,
-.menu__open-hide {
-  display: none;
+  border-radius: 5px;
+  background: var(--blue-rgba);
+
+  &:hover {
+    transition: 0.2s;
+    filter: brightness(70%);
+  }
+
+  @media (max-width: $break-point-mobile) {
+    width: 3rem;
+  }
 }
 
 .menu {

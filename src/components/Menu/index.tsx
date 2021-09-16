@@ -16,7 +16,7 @@ export function Menu() {
   return (
     <>
       <img
-        className={menuIsOpen ? "menu__close" : "menu__open"}
+        className={menuIsOpen ? "menu__icon-close" : "menu__icon-open"}
         src={menuIsOpen ? closeIcon : menuIcon}
         alt="Fechar"
         onClick={handleChangeStateMenu}
