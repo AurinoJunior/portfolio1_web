@@ -1,5 +1,11 @@
+@import "../../../styles/mixins";
+
 .career_details {
   display: flex;
+
+  @media (max-width: $break-point-mobile) {
+    flex-direction: column;
+  }
 
   & + .career_details {
     margin-top: 4rem;
@@ -12,11 +18,23 @@
       white-space: nowrap;
       margin-bottom: 0.5rem;
     }
+
+    @media (max-width: $break-point-mobile) {
+      strong,
+      span {
+        display: block;
+        text-align: center;
+      }
+    }
   }
 
   .career_details__paragraph {
     max-width: 720px;
     text-align: justify;
     margin-left: 2rem;
+
+    @media (max-width: $break-point-mobile) {
+      margin: 1rem 0 0;
+    }
   }
 }

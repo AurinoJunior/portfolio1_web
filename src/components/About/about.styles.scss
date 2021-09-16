@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@import "../../styles/mixins";
 
 .about {
   @include container-spacing;
@@ -10,10 +10,7 @@
   }
 
   .about__paragraph {
-    width: 100%;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    text-align: justify;
+    @include paragraph;
 
     & + .about__paragraph {
       margin-top: 1rem;
@@ -26,6 +23,10 @@
     width: 100%;
 
     margin-top: 5rem;
+
+    @media (max-width: $break-point-mobile) {
+      flex-direction: column;
+    }
 
     .about__personal_data {
       h3 {
@@ -42,6 +43,10 @@
         & + li {
           margin-top: 0.5rem;
         }
+      }
+
+      @media (max-width: $break-point-mobile) {
+        margin-bottom: 3rem;
       }
     }
 

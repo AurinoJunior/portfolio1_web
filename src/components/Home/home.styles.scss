@@ -1,6 +1,4 @@
-@import '../../styles/mixins';
-
-$break-point-mobile: 640px;
+@import "../../styles/mixins";
 
 .home {
   max-width: var(--container-width);
@@ -16,7 +14,6 @@ $break-point-mobile: 640px;
     justify-content: center;
   }
 
-
   .home__info {
     height: 15rem;
     display: flex;
@@ -31,15 +28,14 @@ $break-point-mobile: 640px;
     .home__title {
       @include gradient-title;
       margin: 0;
+
+      @media (max-width: $break-point-mobile) {
+        font-size: 2rem;
+      }
     }
 
     .home__paragraph {
-      line-height: 1.5rem;
-      font-size: 1.2rem;
-
-      @media (max-width: $break-point-mobile) {
-        font-size: 1rem;
-      }
+      @include paragraph;
     }
 
     .home__button {
@@ -77,10 +73,9 @@ $break-point-mobile: 640px;
     }
   }
 
-  .home__img{
+  .home__img {
     @media (max-width: $break-point-mobile) {
       width: 300px;
     }
   }
 }
-

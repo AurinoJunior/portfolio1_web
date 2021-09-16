@@ -1,7 +1,11 @@
-@import '../../styles/mixins';
+@import "../../styles/mixins";
 
 .contact {
   @include container-spacing;
+
+  @media (max-width: $break-point-mobile) {
+    width: 85%;
+  }
 
   .contact__title {
     @include gradient-title;
@@ -12,12 +16,17 @@
     justify-content: space-around;
     width: 70%;
 
+    @media (max-width: $break-point-mobile) {
+      justify-content: space-between;
+      width: 100%;
+    }
+
     .contact__item {
       display: flex;
       flex-direction: column;
       align-items: center;
 
-      &:hover{
+      &:hover {
         cursor: pointer;
       }
 
@@ -30,6 +39,12 @@
       .item-copy {
         color: var(--cyan-500);
         font-weight: 900;
+      }
+
+      img {
+        @media (max-width: $break-point-mobile) {
+          width: 32px;
+        }
       }
     }
   }

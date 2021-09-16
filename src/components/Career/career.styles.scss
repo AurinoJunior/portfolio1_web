@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@import "../../styles/mixins";
 
 .career {
   @include container-spacing;
@@ -9,6 +9,10 @@
 
   .career__content {
     display: flex;
+
+    @media (max-width: $break-point-mobile) {
+      flex-direction: column;
+    }
 
     .career__professional {
       h3 {
@@ -21,6 +25,10 @@
 
     .career__schooling {
       margin-left: 5rem;
+
+      @media (max-width: $break-point-mobile) {
+        margin: 3rem 0 0;
+      }
 
       h3 {
         text-align: center;
