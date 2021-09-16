@@ -1,0 +1,15 @@
+.chevron {
+  width: 100%;
+  min-width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .chevron__icon {
+    cursor: pointer;
+  }
+}
+
+.chevron__content {
+  color: var(--gray-700);
+}

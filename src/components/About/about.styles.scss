@@ -50,7 +50,7 @@
       }
     }
 
-    .about__interests {
+    .about__skills {
       h3 {
         text-align: center;
         margin-bottom: 3rem;
@@ -58,10 +58,13 @@
         color: var(--cyan-500);
       }
 
-      .about__interests__images {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 1rem;
+      .about__skills__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 15rem;
+        width: 20rem;
       }
     }
   }
