@@ -7,7 +7,7 @@ import aurinoPhoto from "../../assets/images/aurino-geraldo.png";
 export function Home() {
   return (
     <section id="home" className="home">
-      <div className="animate__animated animate__bounceInLeft home__info">
+      <div className="home__info">
         <h2 className="home__title">Eu sou web developer!</h2>
         <p className="home__paragraph">
           Salve salve galera meu nome é Aurino Junior atualmente sou
@@ -18,11 +18,13 @@ export function Home() {
         </a>
       </div>
       <img
-        className="animate__animated animate__bounceInRight home__img"
+        className="home__img"
         src={aurinoPhoto}
-        width="500px"
+        width="300px"
         alt="Foto Aurino Geraldo"
       />
     </section>
   );
 }
+
+// animate__animated animate__bounceInLeft

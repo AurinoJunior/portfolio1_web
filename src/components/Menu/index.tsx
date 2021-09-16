@@ -20,6 +20,7 @@ export function Menu() {
         src={menuIsOpen ? closeIcon : menuIcon}
         alt="Fechar"
         onClick={handleChangeStateMenu}
+        width="32px"
       />
 
       {menuIsOpen && (

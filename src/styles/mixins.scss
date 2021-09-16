@@ -1,4 +1,5 @@
 $break-point-mobile: 640px;
+$break-point-tablet: 720px;
 
 @mixin container-spacing {
   max-width: var(--container-width);

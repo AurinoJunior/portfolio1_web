@@ -74,8 +74,8 @@
   }
 
   .home__img {
-    @media (max-width: $break-point-mobile) {
-      width: 300px;
+    @media (min-width: $break-point-tablet) {
+      width: 500px;
     }
   }
 }
