@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "animate.css";
 
-import "./header.styles.scss";
+import "./menu.styles.scss";
 
 import closeIcon from "../../assets/images/close.svg";
 import menuIcon from "../../assets/images/menu.svg";
 
-export function Header() {
+export function Menu() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   function handleChangeStateMenu() {
@@ -16,34 +16,35 @@ export function Header() {
   return (
     <>
       <img
-        className={menuIsOpen ? "header__close" : "header__open"}
+        className={menuIsOpen ? "menu__close" : "menu__open"}
         src={menuIsOpen ? closeIcon : menuIcon}
         alt="Fechar"
         onClick={handleChangeStateMenu}
+        width="32px"
       />
 
       {menuIsOpen && (
-        <header className="header">
-          <div className="header__content animate__animated animate__slideInRight">
-            <nav className="header__menu">
-              <a className="header__menu__item" href="#home">
+        <aside className="menu">
+          <div className="menu__content animate__animated animate__slideInRight">
+            <nav className="menu__nav">
+              <a className="menu__nav__item" href="#home">
                 Inicio
               </a>
-              <a className="header__menu__item" href="#about">
+              <a className="menu__nav__item" href="#about">
                 Sobre
               </a>
-              <a className="header__menu__item" href="#projects">
+              {/* <a className="menu__nav__item" href="#projects">
                 Projeto
-              </a>
-              <a className="header__menu__item" href="#career">
+              </a> */}
+              <a className="menu__nav__item" href="#career">
                 Carreira
               </a>
-              <a className="header__menu__item" href="#contact">
+              <a className="menu__nav__item" href="#contact">
                 Contatos
               </a>
             </nav>
           </div>
-        </header>
+        </aside>
       )}
     </>
   );

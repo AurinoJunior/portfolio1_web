@@ -1,26 +1,21 @@
 @import "../../styles/mixins";
 
-.header__open,
-.header__close {
+.menu__open,
+.menu__close {
   position: fixed;
   top: 2rem;
   right: 2rem;
-  width: 2.5rem;
 
   cursor: pointer;
   z-index: 102;
 }
 
-.header__close {
-  width: 2rem;
-}
-
-.header__close-hide,
-.header__open-hide {
+.menu__close-hide,
+.menu__open-hide {
   display: none;
 }
 
-.header {
+.menu {
   position: fixed;
   right: 0;
   width: 100%;
@@ -31,7 +26,7 @@
   justify-content: flex-end;
   background-color: rgba(0, 0, 0, 0.5);
 
-  .header__content {
+  .menu__content {
     display: flex;
     align-items: flex-end;
     z-index: 101;
@@ -47,7 +42,7 @@
       padding: 2rem;
     }
 
-    .header__menu {
+    .menu__nav {
       display: flex;
       align-items: flex-end;
       flex-direction: column;
@@ -60,7 +55,7 @@
       color: var(--white);
       font-size: 2rem;
 
-      .header__menu__item {
+      .menu__nav__item {
         &:hover {
           color: var(--yellow-500);
         }
