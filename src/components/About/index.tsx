@@ -1,5 +1,7 @@
 import "./about.styles.scss";
 
+import { Chevron } from "./chevron";
+
 export function About() {
   return (
     <section id="about" className="about">
@@ -37,39 +39,17 @@ export function About() {
           </ul>
         </div>
 
-        <div className="about__interests">
-          <h3>Interesses</h3>
-          <div className="about__interests__images">
-            <img
-              className="interests__images__item"
-              src="https://via.placeholder.com/64"
-              alt=""
+        <div className="about__skills">
+          <h3>Habilidades</h3>
+          <div className="about__skills__content">
+            <Chevron
+              title="Front-end"
+              content="HTML5, CSS, Javascript (ReactJs, NextJS), Typescript."
             />
-            <img
-              className="interests__images__item"
-              src="https://via.placeholder.com/64"
-              alt=""
-            />
-            <img
-              className="interests__images__item"
-              src="https://via.placeholder.com/64"
-              alt=""
-            />
-            <img
-              className="interests__images__item"
-              src="https://via.placeholder.com/64"
-              alt=""
-            />
-            <img
-              className="interests__images__item"
-              src="https://via.placeholder.com/64"
-              alt=""
-            />
-            <img
-              className="interests__images__item"
-              src="https://via.placeholder.com/64"
-              alt=""
-            />
+            <Chevron title="Back-end" content="NodeJs, PHP." />
+            <Chevron title="Infraestrutura" content="Docker, AWS, Linux." />
+            <Chevron title="Interface" content="Photoshop, Figma." />
+            <Chevron title="Projeto" content="Scrum, Kanban." />
           </div>
         </div>
       </div>
