@@ -1,5 +1,8 @@
-import "./home.styles.scss";
 import "animate.css";
+
+import "./home.styles.scss";
+
+import aurinoPhoto from "../../assets/images/aurino-geraldo.png";
 
 export function Home() {
   return (
@@ -16,7 +19,7 @@ export function Home() {
       </div>
       <img
         className="animate__animated animate__bounceInRight home__img"
-        src="/images/aurino_geraldo.png"
+        src={aurinoPhoto}
         width="500px"
         alt="Foto Aurino Geraldo"
       />
