@@ -59,12 +59,15 @@
       }
 
       .about__skills__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        .chevron {
+          margin-top: 2rem;
+        }
 
-        height: 15rem;
         width: 20rem;
+
+        @media (max-width: $break-point-mobile) {
+          width: 100%;
+        }
       }
     }
   }
