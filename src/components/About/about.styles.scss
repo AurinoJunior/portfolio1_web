@@ -30,9 +30,7 @@
 
     .about__personal_data {
       h3 {
-        text-align: center;
-        margin-bottom: 3rem;
-        font-size: 1.5rem;
+        @include sub-title;
         color: var(--blue-400);
       }
 
@@ -52,19 +50,20 @@
 
     .about__skills {
       h3 {
-        text-align: center;
-        margin-bottom: 3rem;
-        font-size: 1.5rem;
+        @include sub-title;
         color: var(--cyan-500);
       }
 
       .about__skills__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        .chevron {
+          margin-top: 2rem;
+        }
 
-        height: 15rem;
         width: 20rem;
+
+        @media (max-width: $break-point-mobile) {
+          width: 100%;
+        }
       }
     }
   }
