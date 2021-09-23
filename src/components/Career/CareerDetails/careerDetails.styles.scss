@@ -3,7 +3,7 @@
 .career_details {
   display: flex;
 
-  @media (max-width: $break-point-mobile) {
+  @media (max-width: $break-point-desktop) {
     flex-direction: column;
   }
 
@@ -19,7 +19,7 @@
       margin-bottom: 0.5rem;
     }
 
-    @media (max-width: $break-point-mobile) {
+    @media (max-width: $break-point-desktop) {
       strong,
       span {
         display: block;
@@ -29,12 +29,12 @@
   }
 
   .career_details__paragraph {
-    max-width: 720px;
-    text-align: justify;
+    @include paragraph;
     margin-left: 2rem;
 
-    @media (max-width: $break-point-mobile) {
+    @media (max-width: $break-point-desktop) {
       margin: 1rem 0 0;
+      text-align: center;
     }
   }
 }

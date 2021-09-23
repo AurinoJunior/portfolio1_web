@@ -10,7 +10,7 @@
   .career__content {
     display: flex;
 
-    @media (max-width: $break-point-mobile) {
+    @media (max-width: $break-point-desktop) {
       flex-direction: column;
     }
 
@@ -24,7 +24,7 @@
     .career__schooling {
       margin-left: 5rem;
 
-      @media (max-width: $break-point-mobile) {
+      @media (max-width: $break-point-desktop) {
         margin: 3rem 0 0;
       }
 

@@ -28,6 +28,10 @@
       flex-direction: column;
     }
 
+    @media (max-width: $break-point-tablet) {
+      justify-content: space-between;
+    }
+
     .about__personal_data {
       h3 {
         @include sub-title;
@@ -36,10 +40,9 @@
 
       li {
         list-style: none;
-        font-size: 1.2rem;
 
         & + li {
-          margin-top: 0.5rem;
+          margin-top: 1rem;
         }
       }
 

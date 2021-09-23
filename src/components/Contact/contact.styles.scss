@@ -42,6 +42,10 @@
       }
 
       img {
+        @media (max-width: $break-point-tablet) {
+          width: 48px;
+        }
+
         @media (max-width: $break-point-mobile) {
           width: 32px;
         }
