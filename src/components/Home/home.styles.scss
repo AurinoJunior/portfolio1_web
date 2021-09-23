@@ -9,7 +9,7 @@
   justify-content: space-between;
   height: 100vh;
 
-  @media (max-width: $break-point-mobile) {
+  @media (max-width: $break-point-desktop) {
     flex-direction: column-reverse;
     justify-content: center;
   }
@@ -21,7 +21,7 @@
     justify-content: space-around;
     max-width: 50%;
 
-    @media (max-width: $break-point-mobile) {
+    @media (max-width: $break-point-desktop) {
       max-width: 80%;
     }
 
@@ -75,6 +75,10 @@
 
   .home__img {
     @media (min-width: $break-point-tablet) {
+      width: 400px;
+    }
+
+    @media (min-width: $break-point-desktop) {
       width: 500px;
     }
   }

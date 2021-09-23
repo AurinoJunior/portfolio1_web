@@ -1,18 +1,16 @@
 $break-point-mobile: 640px;
-$break-point-tablet: 720px;
+$break-point-tablet: 768px;
+$break-point-desktop: 1080px;
 
 @mixin container-spacing {
   max-width: var(--container-width);
+  width: 80%;
   margin: 8rem auto 0;
   padding-top: 2rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media (max-width: $break-point-mobile) {
-    width: 80%;
-  }
 }
 
 @mixin gradient-title {
