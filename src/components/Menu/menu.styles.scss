@@ -20,7 +20,7 @@
     filter: brightness(70%);
   }
 
-  @media (max-width: $break-point-mobile) {
+  @media (max-width: $break-point-tablet) {
     width: 3rem;
   }
 }
@@ -46,6 +46,11 @@
     padding: 3rem;
 
     background-color: var(--blue-400);
+
+    @media (max-width: $break-point-tablet) {
+      width: 35%;
+      padding: 3rem;
+    }
 
     @media (max-width: $break-point-mobile) {
       width: 70%;

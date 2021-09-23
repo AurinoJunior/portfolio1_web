@@ -28,7 +28,7 @@ export function About() {
               <b>Nacionalidade:</b> Brasileiro.
             </li>
             <li>
-              <b>Nascimento:</b> 07.10.1997.
+              <b>Nascimento:</b> 07/10/1997
             </li>
             <li>
               <b>Endereço:</b> São Paulo, SP - Brasil.
